@@ -1,7 +1,15 @@
 aid: clanbeat
 name: Clanbeat
-description: Clanbeat is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Clanbeat is an Estonian education-technology company whose app supports student
+  and staff well-being by nurturing social and emotional learning (SEL) through
+  co-creation. The platform provides well-being tracking, quality reflections,
+  meaningful connections between students and educators, and tools to co-create
+  SEL curriculum. It is used by international schools, educators, students, and
+  fitness and lifelong-learning communities to evidence group emotional well-being
+  and bring classes closer together. Clanbeat is delivered as a hosted web and
+  mobile application at app.clanbeat.com; it publishes no public developer API,
+  OpenAPI, SDKs, or partner integration surface at this time.
 url: https://raw.githubusercontent.com/api-evangelist/clanbeat/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +17,30 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://clanbeat.com/wp-content/uploads/2021/10/Clanbeat-learning-app.png
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Education
+- EdTech
+- Well-being
+- Social Emotional Learning
+- Student Engagement
+- Schools
+- Estonia
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +50,26 @@ maintainers:
 common:
 - type: Website
   url: https://clanbeat.com
+- type: SignUp
+  url: https://app.clanbeat.com/start
+- type: Login
+  url: https://app.clanbeat.com/
+- type: Pricing
+  url: https://clanbeat.com/app/pricing/
+- type: PrivacyPolicy
+  url: https://clanbeat.com/app/privacy/
+- type: TermsOfService
+  url: https://clanbeat.com/app/terms-and-conditions/
+- type: Support
+  name: FAQ
+  url: https://clanbeat.com/app/faq/
+- type: Blog
+  name: News
+  url: https://clanbeat.com/app/news/
+- type: DomainSecurity
+  url: security/clanbeat-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
